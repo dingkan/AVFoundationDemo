@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D6353C3E23E5046600DF5F45 /* DKAVAudioTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D6353C3D23E5046600DF5F45 /* DKAVAudioTool.m */; };
+		D6353C4123E5088F00DF5F45 /* DKAVAudioTool+DKAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D6353C4023E5088F00DF5F45 /* DKAVAudioTool+DKAudioPlayer.m */; };
+		D6353C4423E5116700DF5F45 /* DKAVAudioTool+DKAudioSession.m in Sources */ = {isa = PBXBuildFile; fileRef = D6353C4323E5116700DF5F45 /* DKAVAudioTool+DKAudioSession.m */; };
 		D6E3472A23D7D6E700013292 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E3472923D7D6E700013292 /* AppDelegate.m */; };
 		D6E3472D23D7D6E700013292 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E3472C23D7D6E700013292 /* SceneDelegate.m */; };
 		D6E3473023D7D6E700013292 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E3472F23D7D6E700013292 /* ViewController.m */; };
@@ -16,6 +19,8 @@
 		D6E3473B23D7D6E900013292 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E3473A23D7D6E900013292 /* main.m */; };
 		D6E3474523D7D6E900013292 /* AVFoundationDemosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E3474423D7D6E900013292 /* AVFoundationDemosTests.m */; };
 		D6E3475023D7D6E900013292 /* AVFoundationDemosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E3474F23D7D6E900013292 /* AVFoundationDemosUITests.m */; };
+		D6E3475E23D7D85D00013292 /* AVFDemo.plist in Resources */ = {isa = PBXBuildFile; fileRef = D6E3475D23D7D85D00013292 /* AVFDemo.plist */; };
+		D6E3476323D7DA4500013292 /* DKAVFBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E3476223D7DA4500013292 /* DKAVFBaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D6353C3C23E5046600DF5F45 /* DKAVAudioTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKAVAudioTool.h; sourceTree = "<group>"; };
+		D6353C3D23E5046600DF5F45 /* DKAVAudioTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKAVAudioTool.m; sourceTree = "<group>"; };
+		D6353C3F23E5088F00DF5F45 /* DKAVAudioTool+DKAudioPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DKAVAudioTool+DKAudioPlayer.h"; sourceTree = "<group>"; };
+		D6353C4023E5088F00DF5F45 /* DKAVAudioTool+DKAudioPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "DKAVAudioTool+DKAudioPlayer.m"; sourceTree = "<group>"; };
+		D6353C4223E5116700DF5F45 /* DKAVAudioTool+DKAudioSession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DKAVAudioTool+DKAudioSession.h"; sourceTree = "<group>"; };
+		D6353C4323E5116700DF5F45 /* DKAVAudioTool+DKAudioSession.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "DKAVAudioTool+DKAudioSession.m"; sourceTree = "<group>"; };
 		D6E3472523D7D6E700013292 /* AVFoundationDemos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVFoundationDemos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6E3472823D7D6E700013292 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D6E3472923D7D6E700013292 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +65,9 @@
 		D6E3474B23D7D6E900013292 /* AVFoundationDemosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVFoundationDemosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6E3474F23D7D6E900013292 /* AVFoundationDemosUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundationDemosUITests.m; sourceTree = "<group>"; };
 		D6E3475123D7D6E900013292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6E3475D23D7D85D00013292 /* AVFDemo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = AVFDemo.plist; sourceTree = "<group>"; };
+		D6E3476123D7DA4500013292 /* DKAVFBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKAVFBaseViewController.h; sourceTree = "<group>"; };
+		D6E3476223D7DA4500013292 /* DKAVFBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKAVFBaseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +95,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D6353C3B23E502A600DF5F45 /* AVAudioPlayer&AVAudioRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				D6353C3C23E5046600DF5F45 /* DKAVAudioTool.h */,
+				D6353C3D23E5046600DF5F45 /* DKAVAudioTool.m */,
+				D6353C3F23E5088F00DF5F45 /* DKAVAudioTool+DKAudioPlayer.h */,
+				D6353C4023E5088F00DF5F45 /* DKAVAudioTool+DKAudioPlayer.m */,
+				D6353C4223E5116700DF5F45 /* DKAVAudioTool+DKAudioSession.h */,
+				D6353C4323E5116700DF5F45 /* DKAVAudioTool+DKAudioSession.m */,
+			);
+			path = "AVAudioPlayer&AVAudioRecorder";
+			sourceTree = "<group>";
+		};
 		D6E3471C23D7D6E700013292 = {
 			isa = PBXGroup;
 			children = (
@@ -104,12 +131,15 @@
 		D6E3472723D7D6E700013292 /* AVFoundationDemos */ = {
 			isa = PBXGroup;
 			children = (
+				D6353C3B23E502A600DF5F45 /* AVAudioPlayer&AVAudioRecorder */,
+				D6E3475F23D7DA1E00013292 /* AVFoundationBase(基础) */,
 				D6E3472823D7D6E700013292 /* AppDelegate.h */,
 				D6E3472923D7D6E700013292 /* AppDelegate.m */,
 				D6E3472B23D7D6E700013292 /* SceneDelegate.h */,
 				D6E3472C23D7D6E700013292 /* SceneDelegate.m */,
 				D6E3472E23D7D6E700013292 /* ViewController.h */,
 				D6E3472F23D7D6E700013292 /* ViewController.m */,
+				D6E3475D23D7D85D00013292 /* AVFDemo.plist */,
 				D6E3473123D7D6E700013292 /* Main.storyboard */,
 				D6E3473423D7D6E900013292 /* Assets.xcassets */,
 				D6E3473623D7D6E900013292 /* LaunchScreen.storyboard */,
@@ -135,6 +165,23 @@
 				D6E3475123D7D6E900013292 /* Info.plist */,
 			);
 			path = AVFoundationDemosUITests;
+			sourceTree = "<group>";
+		};
+		D6E3475F23D7DA1E00013292 /* AVFoundationBase(基础) */ = {
+			isa = PBXGroup;
+			children = (
+				D6E3476023D7DA1E00013292 /* AVFoundationBase */,
+			);
+			path = "AVFoundationBase(基础)";
+			sourceTree = "<group>";
+		};
+		D6E3476023D7DA1E00013292 /* AVFoundationBase */ = {
+			isa = PBXGroup;
+			children = (
+				D6E3476123D7DA4500013292 /* DKAVFBaseViewController.h */,
+				D6E3476223D7DA4500013292 /* DKAVFBaseViewController.m */,
+			);
+			path = AVFoundationBase;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +246,7 @@
 		D6E3471D23D7D6E700013292 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = DK;
 				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = "丁侃";
 				TargetAttributes = {
@@ -241,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6E3473823D7D6E900013292 /* LaunchScreen.storyboard in Resources */,
+				D6E3475E23D7D85D00013292 /* AVFDemo.plist in Resources */,
 				D6E3473523D7D6E900013292 /* Assets.xcassets in Resources */,
 				D6E3473323D7D6E700013292 /* Main.storyboard in Resources */,
 			);
@@ -267,10 +316,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6353C4123E5088F00DF5F45 /* DKAVAudioTool+DKAudioPlayer.m in Sources */,
 				D6E3473023D7D6E700013292 /* ViewController.m in Sources */,
 				D6E3472A23D7D6E700013292 /* AppDelegate.m in Sources */,
+				D6353C3E23E5046600DF5F45 /* DKAVAudioTool.m in Sources */,
 				D6E3473B23D7D6E900013292 /* main.m in Sources */,
+				D6E3476323D7DA4500013292 /* DKAVFBaseViewController.m in Sources */,
 				D6E3472D23D7D6E700013292 /* SceneDelegate.m in Sources */,
+				D6353C4423E5116700DF5F45 /* DKAVAudioTool+DKAudioSession.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
